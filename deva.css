@@ -50,7 +50,7 @@ header {
 
 
 
-/* ===== About Section Styling ===== */
+/*  About Section Styling*/
 .about-section {
   color: #fff;
   padding: 100px 50px;
@@ -93,4 +93,73 @@ header {
   margin-bottom: 15px;
 }
 
+
+/* EDUCANTION */
+
+
+.education-section {
+  background-color: #f5f8fa;
+  color: #000;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2rem;
+  color: #0d1c52;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.edu-card {
+  background-color: #ffffff;
+  border-left: 5px solid #00ffff;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+  padding: 25px 30px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 255, 255, 0.4);
+}
+
+.edu-card h3 {
+  font-size: 1.4rem;
+  color: #0d1c52;
+  margin-bottom: 5px;
+}
+
+.edu-card h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.edu-year {
+  display: inline-block;
+  background-color: #00ffff;
+  color: #0d1117;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+}
 
